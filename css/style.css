@@ -39,6 +39,10 @@ a:hover {
     position: relative;
 }
 
+.bloc bgc-white l-bloc{
+    color: #000000;
+}
+
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
@@ -680,9 +684,18 @@ p {
     font-size: 11px;
 }
 
+p.text-center.white{
+    color: #000000;
+}
+
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
+}
+
+div#bloc-8.bloc.bgc-atomic-tangerine.d-bloc{
+
+    background-color: #000000;
 }
 
 .h1 {
