@@ -60,6 +60,19 @@ a:hover {
     padding: 20px 50px;
 }
 
+.citation{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.description{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 200;
+}
+
+
 .bg-center,
 .bg-l-edge,
 .bg-r-edge,
@@ -94,8 +107,7 @@ a:hover {
     right: 0;
 }
 
-.texture-paper::before {
-    background: url("img/texture-paper.webp");
+.texture-paper {
     background-size: 280px 280px;
 }
 
@@ -480,7 +492,7 @@ button {
 }
 
 .icon-md {
-    font-size: 30px!important;
+    font-size: 25px!important;
 }
 
 .icon-lg {
@@ -766,7 +778,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: #F3976C;
     padding: 40px 40px 40px 40px;
 }
 
@@ -780,24 +792,21 @@ h4 {
 }
 
 .bgc-dark-slate-blue {
-    background-color: #364577;
+    background-color: #f3976c;
 }
 
-.bgc-atomic-tangerine {
-    background-color: #141b5e;
-}
 
 .tc-white {
-    color: #f1ebe8!important;
+    color: white!important;
 }
 
 .btn-atomic-tangerine {
-    background: #286090;
+    background: gray ;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #e4e0de!important;
     color: #FFFFFF!important;
 }
 
@@ -1053,3 +1062,4 @@ h4 {
         text-align: center;
     }
 }
+
